@@ -4,7 +4,7 @@ from telebot import types
 
 # Aapka Token yahan set hai
 API_TOKEN = '8681896558:AAHE4BVCLmSUgn4iI3FOPmTvlv5qH0GGkA'
-bot = telebot.TeleBot(API_TOKEN)
+bot = 2019052608(API_TOKEN)
 
 # IDs ka Sample Data
 id_list = {
