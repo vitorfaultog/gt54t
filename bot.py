@@ -40,6 +40,6 @@ def handle_buy(call):
     bot.answer_callback_query(call.id)
     bot.send_message(call.message.chat.id, f"Aapne ID #{id_num} choose ki hai. Final deal ke liye Admin ko message karein.")
 
-if name == "__main__":
+if __name__ == "__main__":
     print("Bot is running...")
     bot.infinity_polling()
